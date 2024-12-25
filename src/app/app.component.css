@@ -1,0 +1,58 @@
+.solver {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+    padding: 20px;
+  }
+  
+  .solver-card {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .mat-title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #3f51b5;
+  }
+  
+  .polynomial-input {
+    width: 100%;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .result {
+    margin-top: 20px;
+    background-color: #e8f5e9;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .error {
+    margin-top: 20px;
+    color: #d32f2f;
+  }
+  
+  nav {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  nav a {
+    color: #3f51b5;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  

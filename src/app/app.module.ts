@@ -1,8 +1,15 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { AppRoutingModule } from './app-routing.module'; // Import your routing module
+
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations'; // Needed for Angular Material
+import { MatCardModule } from '@angular/material/card'; // Import the necessary Angular Material modules
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+import { MatButtonModule } from '@angular/material/button';
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http'; // Import HttpClientModule
 
 @NgModule({
   declarations: [
@@ -10,7 +17,14 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule, // Add routing module here
+    BrowserAnimationsModule, // Necessary for Angular Material
+    MatCardModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatButtonModule,
+    FormsModule,
+    HttpClientModule, // Add HttpClientModule here
   ],
   providers: [],
   bootstrap: [AppComponent]
