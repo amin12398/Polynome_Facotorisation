@@ -10,12 +10,14 @@ import { MatInputModule } from '@angular/material/input';
 import { MatButtonModule } from '@angular/material/button';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http'; // Import HttpClientModule
-
+import { MatSelectModule } from '@angular/material/select';
+// import { NgChartsModule } from 'ng2-charts';
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
+
     BrowserModule,
     AppRoutingModule, // Add routing module here
     BrowserAnimationsModule, // Necessary for Angular Material
@@ -25,6 +27,8 @@ import { HttpClientModule } from '@angular/common/http'; // Import HttpClientMod
     MatButtonModule,
     FormsModule,
     HttpClientModule, // Add HttpClientModule here
+    MatSelectModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
